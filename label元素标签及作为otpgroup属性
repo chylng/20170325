@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>label元素标签及作为otpgroup属性</title>
+</head>
+<body>
+<!-- label标签的两种用法： 第二种更为简洁-->
+	<table border="2" align="center" style="backgroud:#FFE4C4;padding:10px">
+		<tr>
+			<td>
+				<form action="" method="" accesskey="">
+					<h2>下面哪几项在“五岳”之内：</h2>
+					<input type="checkbox" name="duoxuan1" value="华山" id="L1"><label for="L1">华山</label>
+					<input type="checkbox" name="duoxuan2" value="黄山" id="L2"><label for="L2">黄山</label>
+					<input type="checkbox" name="duoxuan3" value="泰山" id="L3"><label for="L3">泰山</label>
+					<input type="checkbox" name="duoxuan4" value="中南山" id="L4"><label for="L4">中南山</label>
+					<input type="checkbox" name="duoxuan5" value="衡山" id="L5"><label for="L5">衡山</label>			
+					<input type="checkbox" name="duoxuan6" value="九华山" id="L6"><label for="L6">九华山</label>
+					<hr>
+					<h3>您的性别：</h3>
+					<label><input type="radio" name="danxuan" value="男">男</label>
+					<label><input type="radio" name="danxuan" value="女">女</label>
+					<label><input type="radio" name="danxuan" value="保密">保密</label>
+				</form>
+			</td>
+			<td>
+				<form action="" method="">
+					<h2>下面哪几项在“五岳”之内：</h2>
+					<input type="checkbox" name="duoxuan1" value="华山">华山
+					<input type="checkbox" name="duoxuan2" value="黄山">黄山
+					<input type="checkbox" name="duoxuan3" value="泰山">泰山
+					<input type="checkbox" name="duoxuan4" value="中南山">中南山
+					<input type="checkbox" name="duoxuan5" value="衡山">衡山			
+					<input type="checkbox" name="duoxuan6" value="九华山">九华山
+					<hr>
+					<h3>您的性别：</h3>
+					<input type="radio" name="danxuan" value="男">男
+					<input type="radio" name="danxuan" value="女">女
+					<input type="radio" name="danxuan" value="保密">保密
+				</form>
+			</td>
+		</tr>
+	</table><br><br>
+	<form action="" autocomplete="on">
+		<h3>查找您要收看的课程：</h3>
+		<input type="submit" value="search">
+		<select name="kc" id="">
+			<optgroup label="html5系列">
+				<option value="html5">html5</option>
+				<option value="AS3.0">AS3.0</option>
+				<option value="JavaScript">JavaScript</option>
+			</optgroup>
+			<optgroup label="建筑制图系列">
+				<option value="建筑设计" label="建筑设计（优先显示此内容）">建筑设计</option>
+				<option value="CAD建筑制图">CAD建筑制图</option>
+				<option value="天正建筑">天正建筑</option>
+			</optgroup>	
+		</select>
+	</form>
+</body>
+</html>
