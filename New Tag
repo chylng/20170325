@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>New Tag</title>
+	<style type="text/css">
+	li{display:inline;}/*横向显示*/
+	a{text-decoration:none;}/*去除下划线*/
+	</style>
+</head>
+<body>
+	<article></article>
+	<header>
+		<hgroup>
+			<h1>主标题</h1>
+			<h4>附标题</h4>
+		</hgroup>
+		<address>
+			作者：***；邮箱：chylng@126.com;<!-- 斜体显示 -->
+		</address>
+		<figure>
+			<img src="" alt="" width=""><img src="" alt="" width="">
+		</figure>
+		<figcaption>
+			<h2>标题</h2>
+		</figcaption>
+	</header>
+	<footer></footer>
+	<aside></aside>
+	<nav>
+		<ul>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+			<li><a href=""></a></li>
+		</ul>
+	</nav>
+	<time datetime:"2017-01-08" pubdate="pubdate">2017年01月08日</time>
+</body>
+</html>
